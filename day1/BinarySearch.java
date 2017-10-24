@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /*
-    Time Complexity: logn  (for an already sorted array)
+    Time Complexity: O(logn)  (for an already sorted array)
 */
 
 public class BinarySearch {
@@ -27,7 +27,7 @@ public class BinarySearch {
         int[] arr = {8, 2, 3, 1, 6, 10, 100, 9, 4, 150, 1001};
         int key = Integer.parseInt(args[0]);
 
-        Arrays.sort(arr);  // Necessary for BinarySearch. Complexity: nlogn
+        Arrays.sort(arr);  // Necessary for BinarySearch. Complexity: O(nlogn)
 
         int res = search(key, arr);
         if(res == -1)
