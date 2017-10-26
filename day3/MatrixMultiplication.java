@@ -1,3 +1,13 @@
+/*
+    Matric Multiplication
+    =====================
+
+    Time Complexity: O(xyz)
+    If x = y = z = n, then, O(n^3)
+    Cubic Algorithm
+
+*/
+
 public class MatrixMultiplication {
     static void printArray(int[][] arr) {
         int n = arr.length;
