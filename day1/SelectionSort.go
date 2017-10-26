@@ -5,6 +5,8 @@ package main
 	==============
 
 	Time Complexity: O(n^2)
+	Unstable
+	In-place
 */
 
 import "fmt"

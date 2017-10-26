@@ -1,5 +1,14 @@
 package main
 
+/*
+	Insertion sort
+	==============
+
+	Time Complexity: O(n^2)
+	Stable - Maintains relative order of the same elements
+	In-place - Requires constant amount of additional space
+*/
+
 import "fmt"
 
 func sort(arr []int) {

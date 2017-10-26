@@ -1,5 +1,9 @@
 package main
 
+/*
+	Time Complexity: O(n)
+*/
+
 import "fmt"
 
 func search(arr []int, key int) int {
