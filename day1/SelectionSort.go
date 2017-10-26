@@ -9,6 +9,13 @@ package main
 
 import "fmt"
 
+func printArray(arr []int) {
+	for _, val := range arr {
+		fmt.Print(val, " ")
+	}
+	fmt.Println()
+}
+
 func sort(arr []int) {
 	var min int
 	for i := 0; i < len(arr); i++ {
@@ -19,6 +26,7 @@ func sort(arr []int) {
 			}
 		}
 		arr[i], arr[min] = arr[min], arr[i]
+		printArray(arr)
 	}
 }
 
@@ -26,16 +34,10 @@ func main() {
 	arr := []int{19, 10, 4, 3, 8, 5, 1}
 
 	fmt.Println("Before Sorting:")
-	for _, x := range arr {
-		fmt.Print(x, " ")
-	}
-	fmt.Println()
+	printArray(arr)
 
 	sort(arr)
 
 	fmt.Println("\nAfter Sorting:")
-	for _, x := range arr {
-		fmt.Print(x, " ")
-	}
-	fmt.Println()
+	printArray(arr)
 }
