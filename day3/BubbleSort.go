@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 /*
-   Time Complexity: O(n^2)
-   Stable
-   In-place
+	Bubble Sort
+	===========
+	Time Complexity: O(n^2)
+	Stable
+	In-place
 */
 
 func printArray(arr []int) {
